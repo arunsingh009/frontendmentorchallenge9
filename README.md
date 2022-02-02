@@ -25,20 +25,23 @@ Users should be able to:
 ### Screenshot
 
 <div>
-  Active State
+  <div>Active State</div>
+  
 <img src="./output/a1.png" width="40%" height="300px">
 <img src="./output/a2.png" width="40%" height="300px">
-  Desktop(1440px)
+  <div> Desktop</div>
+  
 <img src="./output/d.png" width="100%">
-  Mobile(375px)
+  <div> Mobile</div>
+  
 <img src="./output/m.png" width="50%">
 </div>
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [click here](https://github.com/arunsingh009/frontendmentorchallenge9)
+- Live Site URL: [click here](https://arunsingh009.github.io/frontendmentorchallenge9/)
 
 ## My process
 
