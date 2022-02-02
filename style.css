@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /*  */
+    
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Big-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid transparent;
+    height: 450px;
+    width: 900px;  
+    /* row-gap: 2px; */
+    /* column-gap: 2px; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.logo{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width:70%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.cont{
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    justify-content:space-around ;
+}
+.cont h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+
+}
+.cont p{
+    width: 80%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.btn{
+    height: 130px;
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btn button{
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid white;   
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: transparent;
+    color: white;
+
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color:hsl(184, 100%, 22%) ;
+}
+.btn3{
+    color:hsl(179, 100%, 13%) ;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+}
+@media(max-width:850px){
+    main{
+        overflow: none;
+        height: fit-content;
+        padding: 5vh 0px;
+    }
+    .Big-card{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+       flex-direction: column;
+        width: 60%;
+    }
+    .btn{
+        width: 80%;
+    }
+}
+@media(max-width:550px){
+    .Big-card{
+        width: 80%;
+    }
+
+}
+
