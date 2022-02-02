@@ -25,10 +25,13 @@ Users should be able to:
 ### Screenshot
 
 <div>
-<img src="./images/a1.png" width="50%" height="500px">
-<img src="./images/a2.png" width="50%" height="500px">
-<img src="./images/d.png" width="100%">
-<img src="./images/m.png" width="50%">
+  Active State
+<img src="./output/a1.png" width="40%" height="300px">
+<img src="./output/a2.png" width="40%" height="300px">
+  Desktop(1440px)
+<img src="./output/d.png" width="100%">
+  Mobile(375px)
+<img src="./output/m.png" width="50%">
 </div>
 
 
